@@ -1,0 +1,28 @@
+_id: req_447747cdff0d4b739dbdae5ec4f0d3b9
+type: Request
+parentId: fld_1dce16ccf8814fb0a14297a8e35fb036
+modified: 1700130990278
+created: 1697718991477
+url: "{{ _.hosts.mainHost }}/user/{{ _.testData.dayenerysId }}/money/250000"
+name: giveMoney2User
+description: ""
+method: POST
+body: {}
+parameters: []
+headers:
+  - id: pair_eb0174b62806487687b1a1f4e4843c72
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: "{{ _.testData.token }}"
+  prefix: Bearer
+metaSortKey: -1699803164411.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

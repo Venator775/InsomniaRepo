@@ -1,0 +1,38 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb9b7c38a3f
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb9760a7538
+modified: 1699475352977
+created: 1699475352977
+url: "{{ base_url }}/house"
+name: Добавление дома
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "floorCount": 5,
+      "id": 10,
+      "parkingPlaces": [
+        {
+          "id": 10,
+          "isCovered": true,
+          "isWarm": true,
+          "placesCount": 24
+        }
+      ],
+      "price": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1699475352977
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

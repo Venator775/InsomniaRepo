@@ -1,0 +1,21 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb95f09ba4c
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb957f2b181
+modified: 1699475352946
+created: 1699475352946
+url: "{{ base_url }}/user/{{ userId }}/buyCar/{{ carId }}"
+name: Покупка автомобиля пользователем
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699475352946
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

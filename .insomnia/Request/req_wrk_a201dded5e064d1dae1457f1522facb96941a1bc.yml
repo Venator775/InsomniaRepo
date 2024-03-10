@@ -1,0 +1,38 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb96941a1bc
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb9760a7538
+modified: 1699475352971
+created: 1699475352971
+url: "{{ base_url }}/house/{{ houseId }}"
+name: Изменение дома
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "floorCount": 5,
+      "id": 10,
+      "parkingPlaces": [
+        {
+          "id": 10,
+          "isCovered": true,
+          "isWarm": true,
+          "placesCount": 24
+        }
+      ],
+      "price": 0
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1699475352971
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

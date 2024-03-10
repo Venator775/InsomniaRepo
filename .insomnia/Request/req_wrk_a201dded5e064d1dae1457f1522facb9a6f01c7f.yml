@@ -1,0 +1,33 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb9a6f01c7f
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb957f2b181
+modified: 1699475352958
+created: 1699475352958
+url: "{{ base_url }}/user"
+name: с url-параметрами Добавление пользователя
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "age": 19,
+      "firstName": "Василий",
+      "id": 10,
+      "money": 0,
+      "secondName": "Тестов",
+      "sex": "MALE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1699475352958
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

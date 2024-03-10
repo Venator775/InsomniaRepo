@@ -1,0 +1,32 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb979c6b1ad
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb96e31539a
+modified: 1699475352981
+created: 1699475352981
+url: "{{ base_url }}/car/{{ carId }}"
+name: Изменение автомобиля
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "engineType": "Diesel",
+      "id": 10,
+      "mark": "Марка",
+      "model": "Модель",
+      "price": 10000.99
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1699475352981
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

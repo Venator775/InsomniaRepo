@@ -1,0 +1,26 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb971afa194
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb957f2b181
+modified: 1700471104235
+created: 1699475352956
+url: "{{ base_url }}/user/{{ userId }}"
+name: Удаление пользователя
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_f73da19402ee4ae9bba21b5eb0f9db65
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQHBmbGIucnUiLCJyb2xlcyI6WyJ1c2VyIl0sImlzcyI6Imh0dHA6Ly83Ny41MC4yMzYuMjAzOjQ4NzkvbG9naW4iLCJleHAiOjE3MDAxNTQ3MjV9.iwh0-WPx0QJ66P-RaXHGL_dohbEMgFu6gMMAm7aA6FI
+    description: ""
+authentication: {}
+metaSortKey: -1699475352956
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

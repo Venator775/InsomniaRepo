@@ -1,0 +1,58 @@
+_id: req_578fff289ef3418cac0f1d490716eaf7
+type: Request
+parentId: fld_1dce16ccf8814fb0a14297a8e35fb036
+modified: 1700130982483
+created: 1697718742444
+url: "{{ _.hosts.mainHost }}/{{ _.endpoints.users.newUser }}"
+name: new user
+description: |-
+  Тестовый юзер 1 
+
+  {
+    "id": 6446,
+    "firstName": "Дейенерис",
+    "secondName": "Таргариен",
+    "age": 15,
+    "sex": "FEMALE",
+    "money": 0
+  }
+
+
+  Тестовый юзер 2
+
+  {
+    "id": 6447,
+    "firstName": "Визерис",
+    "secondName": "Таргариен",
+    "age": 15,
+    "sex": "FEMALE",
+    "money": 0
+  }
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "age": 15,
+      "firstName": "Визерис",
+      "money": 0,
+      "secondName": "Таргариен",
+      "sex": "FEMALE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e62b2d6b89c4ab0b29d0b6e41874d9b
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: "{{ _.testData.token }}"
+metaSortKey: -1699803164211.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

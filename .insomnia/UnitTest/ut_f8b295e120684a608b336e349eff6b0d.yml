@@ -1,0 +1,37 @@
+_id: ut_f8b295e120684a608b336e349eff6b0d
+type: UnitTest
+parentId: uts_7614e462ec224472aaa4f5848e062530
+modified: 1697721695477
+created: 1697720914421
+requestId: req_b5528937875048e2ad2fb7b5aa165181
+name: Returns 200
+code: |
+  console.clear();
+  /*const response = await insomnia.send();
+  expect(response.status).to.equal(200);
+
+  //проверяем состояние
+  const body = JSON.parse(response.data);
+  console.log(body);
+  expect(body.house).to.be.null;
+
+  //заселяем
+  const response1 = await insomnia.send('req_77e137d4785e4090a63acd0bd3afb578');
+  expect(response1.status).to.equal(200);
+
+  //проверяем, что заселились
+  const response2 = await insomnia.send();
+  expect(response2.status).to.equal(200);
+  const body2 = JSON.parse(response2.data);
+  expect(body2.house).not.to.be.null;
+
+  //выселяем
+  const response3 = await insomnia.send('req_d40f3e8b2f7f434dbf97dd20fc7cfb0e');
+  expect(response3.status).to.equal(200);
+
+  //проверяем, что выселились
+  const response4 = await insomnia.send();
+  expect(response4.status).to.equal(200);
+  const body4 = JSON.parse(response4.data);
+  expect(body4.house).to.be.null;
+  */

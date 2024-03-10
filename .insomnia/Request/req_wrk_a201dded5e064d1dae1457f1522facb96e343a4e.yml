@@ -1,0 +1,21 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb96e343a4e
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb9760a7538
+modified: 1699475352966
+created: 1699475352966
+url: "{{ base_url }}/house/{{ houseId }}/evict/{{ userId }}"
+name: Выселить пользоватя из дома
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699475352966
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

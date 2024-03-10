@@ -1,0 +1,26 @@
+_id: req_d40f3e8b2f7f434dbf97dd20fc7cfb0e
+type: Request
+parentId: fld_12fcf1c9ee7d4278ab4656b8a653c2fa
+modified: 1697722714175
+created: 1697720412996
+url: "{{ _.hosts.mainHost }}/house/{% response 'body',
+  'req_b5528937875048e2ad2fb7b5aa165181', 'b64::JC5ob3VzZQ==::46b', 'always', 60
+  %}/evict/{{ _.testData.dayenerysId }}"
+name: evictUserFromHouse
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.testData.token }}"
+  prefix: Bearer
+metaSortKey: -1697720159625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

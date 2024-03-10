@@ -1,0 +1,14 @@
+_id: ut_0f8d00d2077d4552ad15a520dd3d09cc
+type: UnitTest
+parentId: uts_7614e462ec224472aaa4f5848e062530
+modified: 1697721609595
+created: 1697721566005
+requestId: req_b5528937875048e2ad2fb7b5aa165181
+name: проверка заселения
+code: |
+  //проверяем, что заселились
+  const response2 = await insomnia.send();
+  expect(response2.status).to.equal(200);
+  const body2 = JSON.parse(response2.data);
+  expect(body2.house).not.to.be.null;
+  expect(body2.house).to.satisfy(Number.isInteger);

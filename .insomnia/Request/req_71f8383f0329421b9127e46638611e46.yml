@@ -1,0 +1,40 @@
+_id: req_71f8383f0329421b9127e46638611e46
+type: Request
+parentId: wrk_a201dded5e064d1dae1457f1522facb9
+modified: 1705920288146
+created: 1700132948956
+url: "{{ _.hosts.mainHost }}/user"
+name: My Request 1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "age": 19,
+      "firstName": "Василий",
+      "id": 10,
+      "money": 0,
+      "secondName": "Тестов",
+      "sex": "MALE"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_c8fdf76bb0dc463c8c1d7a4c28f5dece
+    disabled: false
+  - id: pair_8d4fd549f9224cc2a98f98f1f12c0c21
+    name: Authorization
+    value: Bearer
+      eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQHBmbGIucnUiLCJyb2xlcyI6WyJ1c2VyIl0sImlzcyI6Imh0dHA6Ly83Ny41MC4yMzYuMjAzOjQ4NzkvbG9naW4iLCJleHAiOjE3MDU5NDE4MjN9.mHxwngu3xDan1FPIRe-NF8QcsYl7fv3VARtM_wbL1IE
+    description: ""
+authentication: {}
+metaSortKey: -1697721980487
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

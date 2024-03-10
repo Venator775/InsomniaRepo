@@ -1,0 +1,15 @@
+_id: ut_726bb55a36fe4591b027c5e2f8dcb7d5
+type: UnitTest
+parentId: uts_7614e462ec224472aaa4f5848e062530
+modified: 1697722064343
+created: 1697721449061
+requestId: req_b5528937875048e2ad2fb7b5aa165181
+name: проверяем состояние
+code: |+
+  const response = await insomnia.send();
+  expect(response.status).to.equal(200);
+
+  const body = JSON.parse(response.data);
+  console.log(body);
+  expect(body.house).to.be.null;
+

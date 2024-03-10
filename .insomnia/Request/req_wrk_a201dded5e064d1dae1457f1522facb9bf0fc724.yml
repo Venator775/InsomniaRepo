@@ -1,0 +1,30 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb9bf0fc724
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb94e5a2893
+modified: 1699872026579
+created: 1699475352961
+url: "{{ base_url }}/login"
+name: "с json телом Получение токена "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "password": "user",
+      "username": "user@pflb.ru"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_1c169dbd20104515b175a4217ee521f1
+authentication: {}
+metaSortKey: -1699475352961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

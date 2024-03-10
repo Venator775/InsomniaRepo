@@ -1,0 +1,22 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb9c6c11d3d
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb94e5a2893
+modified: 1699475352959
+created: 1699475352959
+url: "{{ base_url }}/login с url-параметрами"
+name: Получение токена
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699475352959
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

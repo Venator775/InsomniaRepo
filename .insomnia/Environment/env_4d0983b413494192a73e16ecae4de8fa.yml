@@ -1,0 +1,47 @@
+_id: env_4d0983b413494192a73e16ecae4de8fa
+type: Environment
+parentId: env_70567b7be3b09182d2e0dc82b2c2b74ebee3fdaf
+modified: 1700471084553
+created: 1697718234681
+name: IFT
+data:
+  testData:
+    userId: 6685
+    dayenerysId: 6446
+    viserysId: 6447
+    houseId: 475
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyQHBmbGIucnUiLCJyb2xlcyI6WyJ1c2VyIl0sImlzcyI6Imh0dHA6Ly83Ny41MC4yMzYuMjAzOjQ4NzkvbG9naW4iLCJleHAiOjE3MDAxNTQ3MjV9.iwh0-WPx0QJ66P-RaXHGL_dohbEMgFu6gMMAm7aA6FI
+  hosts:
+    mainHost: http://77.50.236.203:4879
+  endpoints:
+    authorization:
+      login: login
+    users:
+      user: user
+      newUser: user
+      getUser: user/{{ _.testData.userId }}
+dataPropertyOrder:
+  "&":
+    - testData
+    - hosts
+    - endpoints
+  "&~|testData":
+    - userId
+    - dayenerysId
+    - viserysId
+    - houseId
+    - token
+  "&~|hosts":
+    - mainHost
+  "&~|endpoints":
+    - authorization
+    - users
+  "&~|endpoints~|authorization":
+    - login
+  "&~|endpoints~|users":
+    - user
+    - newUser
+    - getUser
+color: "#f9f001"
+isPrivate: false
+metaSortKey: 1697718234681

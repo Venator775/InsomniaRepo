@@ -1,0 +1,25 @@
+_id: req_44b514ef819c4d529e20ffbf8f4c519c
+type: Request
+parentId: fld_1dce16ccf8814fb0a14297a8e35fb036
+modified: 1700130995796
+created: 1697722002200
+url: "{{ _.hosts.mainHost }}/house/{{ _.testData.houseId }}/settle/{{
+  _.testData.dayenerysId }}"
+name: settleUser2House
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.testData.token }}"
+  prefix: Bearer
+metaSortKey: -1699803164561.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

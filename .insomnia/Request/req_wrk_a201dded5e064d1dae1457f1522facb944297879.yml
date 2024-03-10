@@ -1,0 +1,21 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb944297879
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb9760a7538
+modified: 1699475352975
+created: 1699475352975
+url: "{{ base_url }}/house/{{ houseId }}"
+name: Удаление дома
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699475352975
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb9c6473e36
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb9760a7538
+modified: 1699475352964
+created: 1699475352964
+url: "{{ base_url }}/house/{{ houseId }}/settle/{{ userId }}"
+name: Заселить пользоватя в дом
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699475352964
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

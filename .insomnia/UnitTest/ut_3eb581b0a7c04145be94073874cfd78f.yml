@@ -1,0 +1,13 @@
+_id: ut_3eb581b0a7c04145be94073874cfd78f
+type: UnitTest
+parentId: uts_7614e462ec224472aaa4f5848e062530
+modified: 1697721670235
+created: 1697721658848
+requestId: req_b5528937875048e2ad2fb7b5aa165181
+name: проверка выселения
+code: |-
+  //проверяем, что выселились
+  const response4 = await insomnia.send();
+  expect(response4.status).to.equal(200);
+  const body4 = JSON.parse(response4.data);
+  expect(body4.house).to.be.null;

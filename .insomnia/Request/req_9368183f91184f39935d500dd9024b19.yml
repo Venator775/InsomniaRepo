@@ -1,0 +1,22 @@
+_id: req_9368183f91184f39935d500dd9024b19
+type: Request
+parentId: fld_1dce16ccf8814fb0a14297a8e35fb036
+modified: 1700130985947
+created: 1697719030201
+url: "{{ _.hosts.mainHost }}/{{ _.endpoints.users.user }}/{{
+  _.testData.dayenerysId }}"
+name: getUser
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699803164311.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

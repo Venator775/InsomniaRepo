@@ -1,0 +1,21 @@
+_id: req_wrk_a201dded5e064d1dae1457f1522facb90d8aeb5f
+type: Request
+parentId: fld_wrk_a201dded5e064d1dae1457f1522facb957f2b181
+modified: 1699475352950
+created: 1699475352950
+url: "{{ base_url }}/user/{{ userId }}"
+name: Получение пользователя
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699475352950
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

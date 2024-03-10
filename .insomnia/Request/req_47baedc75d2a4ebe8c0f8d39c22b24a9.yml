@@ -1,0 +1,21 @@
+_id: req_47baedc75d2a4ebe8c0f8d39c22b24a9
+type: Request
+parentId: fld_1dce16ccf8814fb0a14297a8e35fb036
+modified: 1700130993496
+created: 1697720264308
+url: "{{ _.hosts.mainHost }}/house/{{ _.testData.houseId }}"
+name: getHouse
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699803164511.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

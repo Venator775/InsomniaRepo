@@ -1,0 +1,21 @@
+_id: req_b5528937875048e2ad2fb7b5aa165181
+type: Request
+parentId: fld_12fcf1c9ee7d4278ab4656b8a653c2fa
+modified: 1697721991081
+created: 1697720570976
+url: "{{ _.hosts.mainHost }}/user/{{ _.testData.dayenerysId }}/info"
+name: getUserInfo
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1697720159475
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

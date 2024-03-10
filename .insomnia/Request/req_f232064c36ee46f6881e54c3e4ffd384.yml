@@ -1,0 +1,21 @@
+_id: req_f232064c36ee46f6881e54c3e4ffd384
+type: Request
+parentId: fld_1dce16ccf8814fb0a14297a8e35fb036
+modified: 1700130984223
+created: 1697719378095
+url: "{{ _.hosts.mainHost }}/{{ _.endpoints.users.getUser }}"
+name: getUserId
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1699803164261.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
